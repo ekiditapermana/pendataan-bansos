@@ -29,14 +29,6 @@
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
   },
-  //.json
-"devDependencies": {
-  "execa": "latest"
-},
-//.json
-"scripts": {
-  "deploy": "node scripts/gh-pages-deploy.js"
- },
   "eslintConfig": {
     "root": true,
     "env": {
