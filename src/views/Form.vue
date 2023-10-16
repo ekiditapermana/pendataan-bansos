@@ -294,7 +294,7 @@
             auto-grow
           ></v-textarea>
 
-          <div class="row mb-4 ">
+          <div class="row mb-4">
             <v-text-field
               v-model="RT"
               @keypress="cekNumber"
@@ -317,7 +317,7 @@
             ></v-text-field>
           </div>
 
-          <div class="row mb-4 ">
+          <div class="row mb-4">
             <v-text-field
               v-model="PengSebelumPandemi"
               @keypress="cekNumber"
@@ -385,9 +385,7 @@
           </v-checkbox>
 
           <div v-show="!valid" class="error--text my-2 text-subtitle">
-            <span>
-              Mohon Pastikan Data telah terisi seluruhnya!
-            </span>
+            <span> Mohon Pastikan Data telah terisi seluruhnya! </span>
           </div>
           <div class="text-center text-md-left">
             <v-btn
@@ -493,6 +491,10 @@ export default {
         fotoKTP: this.fotoKTP,
         fotoKK: this.fotoKK,
         umur: this.umur,
+        provinsi: this.provinsi,
+        kota: this.kota,
+        kecamatan: this.kecamatan,
+        desa: this.desa,
         alamat: this.alamat,
         jenisKelamin: this.jenisKelamin,
         RT: this.RT,
